@@ -1,0 +1,41 @@
+{
+"name": "lchnew",
+"version": "0.1.0",
+"private": true,
+"scripts": {
+// "dev": "next dev",
+// "build": "next build",
+// "start": "next start",
+"dev": "next dev --webpack", // --webpack से Turbopack off, webpack on
+"build": "next build --webpack", // build के लिए भी webpack यूज करो
+"start": "next start",
+"lint": "eslint"
+},
+"dependencies": {
+"@react-pdf/renderer": "^4.3.2",
+"html-to-image": "^1.11.13",
+"html2canvas": "^1.4.1",
+"html2canvas-pro": "^1.6.6",
+"jspdf": "^4.1.0",
+"lucide-react": "^0.563.0",
+"mammoth": "^1.11.0",
+"next": "16.1.6",
+"pdfjs-dist": "^5.4.624",
+"react": "19.2.3",
+"react-datepicker": "^9.1.0",
+"react-dom": "19.2.3",
+"react-hook-form": "^7.71.1",
+"react-icons": "^5.5.0",
+"react-to-print": "^3.2.0"
+},
+"devDependencies": {
+"@tailwindcss/postcss": "^4",
+"@types/node": "^20",
+"@types/react": "^19",
+"@types/react-dom": "^19",
+"eslint": "^9",
+"eslint-config-next": "16.1.6",
+"tailwindcss": "^4",
+"typescript": "^5"
+}
+}
