@@ -1,8 +1,7 @@
-import dynamic from "next/dynamic";
+"use client";
+export const dynamic = "force-dynamic";
 
-const ExtractForm = dynamic(() => import("./src/components/ExtractForm"), {
-  ssr: false,
-});
+import ExtractForm from "./src/components/ExtractForm";
 
 export default function Page() {
   return (
