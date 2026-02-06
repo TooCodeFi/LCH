@@ -1,3 +1,5 @@
+"use client";
+
 import ExtractForm from "./src/components/ExtractForm";
 
 export default function page() {

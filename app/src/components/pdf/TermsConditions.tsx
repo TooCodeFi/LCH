@@ -1,3 +1,4 @@
+"use client";
 export default function TermsConditions() {
   return (
     <section className="w-full px-6 py-8 text-gray-700">
