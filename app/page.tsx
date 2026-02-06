@@ -1,11 +1,7 @@
-import dynamic from "next/dynamic";
+"use client";
+import ExtractForm from "./src/components/ExtractForm";
 
-const ExtractForm = dynamic(() => import("./src/components/ExtractForm"), {
-  ssr: false,
-  loading: () => <p>Loading...</p>,
-});
-
-export default function Page() {
+export default function page() {
   return (
     <div>
       <ExtractForm />
